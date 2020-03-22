@@ -337,7 +337,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 72px);
-  background: url("../img/hero-bg.jpg") center center;
+  background: url("../img/banner.gif") center center;
   background-size: cover;
   position: relative;
   margin-top: 72px;
@@ -356,6 +356,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .container {
   z-index: 2;
+}
+
+.tint {
+  z-index: 1;height: 100%;width: 100%;position: absolute;top: 0px;left: 0px;background: rgba(0, 0, 0, 0.7);
 }
 
 #hero h1 {
@@ -582,7 +586,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  padding: 30px;
+  padding: 15px;
   position: relative;
   overflow: hidden;
   margin: 0;
