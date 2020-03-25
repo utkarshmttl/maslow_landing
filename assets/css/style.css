@@ -17,6 +17,11 @@ a {
   color: #1bac91;
 }
 
+.img-fluid {
+  width: 150px;
+  height: 150px;
+}
+
 a:hover {
   color: #22d8b6;
   text-decoration: none;
@@ -337,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 72px);
-  background: url("../img/banner.gif") center center;
+  background: url("../img/banner-min.gif") center center;
   background-size: cover;
   position: relative;
   margin-top: 72px;
