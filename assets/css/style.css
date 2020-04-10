@@ -17,9 +17,19 @@ a {
   color: #1bac91;
 }
 
+@media only screen and (max-width: 728px){
+    .img-fluid-custom {
+        display: none;
+    }
+}
+
+.img-fluid-custom {
+    max-height: 350px;
+}
+
 .img-fluid {
-  width: 150px;
-  height: 150px;
+    width: 150px;
+    height: 150px;
 }
 
 a:hover {
