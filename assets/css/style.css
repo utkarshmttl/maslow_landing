@@ -1693,8 +1693,8 @@ section {
   top: 0;
 }
 .slider .slide-track {
-  -webkit-animation: scroll 40s linear infinite;
-          animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 30s linear infinite;
+          animation: scroll 30s linear infinite;
   display: -webkit-box;
   display: flex;
   width: calc(500px * 8);
@@ -1702,4 +1702,8 @@ section {
 .slider .slide {
   height: 200px;
   width: 500px;
+}
+
+.slider .slide a img:hover{
+  opacity: 0.5;
 }
