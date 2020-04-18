@@ -458,79 +458,26 @@
         </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section class="portfolio section-bg" id="portfolio">
+    <!-- ======= Codepen Portfolio Section start ======= -->
+    <section class="client">
         <div class="container">
+            <div class="row">
 
-            <div class="section-title" data-aos="fade-up">
-                <h2>Partners</h2>
-                <p>eVidya is supported by the Klaus Tschira Stiftung gGmbH as well as the Max Planck Society.</p>
-            </div>
-
-            <div class="row portfolio-container" data-aos="fade-up">
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img alt="" class="img-fluid" src="assets/img/portfolio/alumnode.png">
-                        <div class="portfolio-info">
-                            <h4>Alum Node</h4>
-                            <p>Sponsor</p>
-                            <div class="portfolio-links">
-                                <a class="venobox" data-gall="portfolioGallery" href="assets/img/portfolio/alumnode.png"
-                                   title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="section-title">
+                    <h2> Our Partners : </h2>
                 </div>
 
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img alt="" class="img-fluid" src="assets/img/portfolio/hlf.jpeg">
-                        <div class="portfolio-info">
-                            <h4>Heidelberg Laureate Forum</h4>
-                            <p>Mentoring Organization</p>
-                            <div class="portfolio-links">
-                                <a class="venobox" data-gall="portfolioGallery" href="assets/img/portfolio/hlf.jpeg"
-                                   title="App 2"><i class="bx bx-plus"></i></a>
-                                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img alt="" class="img-fluid" src="assets/img/portfolio/ktslogo.png">
-                        <div class="portfolio-info">
-                            <h4>Klaus Tschira Stiftung gemeinnutzige GmbH</h4>
-                            <p>Mentoring Organization</p>
-                            <div class="portfolio-links">
-                                <a class="venobox" data-gall="portfolioGallery" href="assets/img/portfolio/ktslogo.png"
-                                   title="Card 2"><i class="bx bx-plus"></i></a>
-                                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img alt="" class="img-fluid" src="assets/img/portfolio/maxplanck.jpeg">
-                        <div class="portfolio-info">
-                            <h4>Max Planck Society</h4>
-                            <p>Mentoring organization</p>
-                            <div class="portfolio-links">
-                                <a class="venobox" data-gall="portfolioGallery"
-                                   href="assets/img/portfolio/maxplanck.jpeg" title="Web 2"><i class="bx bx-plus"></i></a>
-                                <a href="#" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="carousel-client">
+                    <div class="slide"><img src="assets/img/portfolio/alumnode.png"></div>
+                    <div class="slide"><img src="assets/img/portfolio/hlf.jpeg"></div>
+                    <div class="slide"><img src="assets/img/portfolio/ktslogo.png"></div>
+                    <div class="slide"><img src="assets/img/portfolio/maxplanck.jpeg"></div>
                 </div>
             </div>
-
         </div>
-    </section><!-- End Portfolio Section -->
+    </section>
+    <!-- ======= Codepen Portfolio Section end ======= -->
+
 
     <!-- ======= Team Section ======= -->
     <section class="team" id="team">
@@ -799,6 +746,19 @@
 <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 <script src="assets/vendor/venobox/venobox.min.js"></script>
 <script src="assets/vendor/aos/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.js"></script>
+<script type="text/javascript">
+    /**********************/
+    /*  Client carousel   */
+    /**********************/
+    $('.carousel-client').bxSlider({
+        auto: true,
+        // slideWidth: 234,
+        minSlides: 2,
+        maxSlides: 5,
+        controls: false
+    });
+</script>
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
