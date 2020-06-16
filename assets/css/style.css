@@ -350,13 +350,23 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
+  /*z-index: 0;*/
   width: 100%;
   height: calc(100vh - 72px);
-  background: url("../img/banner-min.gif") center center;
-  background-size: cover;
+  /*background: url("../img/banner-min.gif") center center;*/
+  /*background-size: cover;*/
   position: relative;
   margin-top: 72px;
   padding: 0;
+
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 #hero:before {
